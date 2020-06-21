@@ -407,7 +407,7 @@ if($(this).hasClass('dark')){
     $('p').css({'color':'white'});
 
 
-    $('header').css({'background-image':'url(../img/hero-blue@2x.png)'});
+    $('header').css({'background-image':'url(img/hero-blue@2x.png)'});
     $('nav').css({'background-color':'blue', 'color':'white',
     '-webkit-box-shadow': '0px 10px 48px -19px blue',
     '-moz-box-shadow': '0px 10px 48px -19px blue',
