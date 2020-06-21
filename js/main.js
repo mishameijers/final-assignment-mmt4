@@ -350,7 +350,7 @@ if($(this).hasClass('dark')){
     $('footer p').css({'color':'white'});
 
 
-    $('header').css({'background-image':'url(img/hero@2x.png)'});
+    $('header').css({'background-image':'url("img/hero@2x.png")'});
     $('nav').css({'background-color':'white', 'color':'black',
     '-webkit-box-shadow': '0px 10px 48px -19px rgba(204,0,133,1)',
     '-moz-box-shadow': '0px 10px 48px -19px rgba(204,0,133,1)',
@@ -392,7 +392,7 @@ if($(this).hasClass('dark')){
     $('.sliderContent h3').css({'color':'#CC0085'});
 
 
-    $('footer').css({'background-image':'url(img/footer-img@2x.png)'});
+    $('footer').css({'background-image':'url("img/footer-img@2x.png")'});
     $('footer a').css({'color':'#CC0085'});
     $('footer .cta').css({'background-color':'white'});
 
@@ -407,7 +407,7 @@ if($(this).hasClass('dark')){
     $('p').css({'color':'white'});
 
 
-    $('header').css({'background-image':'url(img/hero-blue@2x.png)'});
+    $('header').css({'background-image':'url("img/hero-blue@2x.png")'});
     $('nav').css({'background-color':'blue', 'color':'white',
     '-webkit-box-shadow': '0px 10px 48px -19px blue',
     '-moz-box-shadow': '0px 10px 48px -19px blue',
@@ -450,7 +450,7 @@ if($(this).hasClass('dark')){
     $('.sliderContent h3').css({'color':'white'});
 
 
-    $('footer').css({'background-image':'url(img/footer-img-blue@2x.png)'});
+    $('footer').css({'background-image':'url("img/footer-img-blue@2x.png")'});
     $('footer a').css({'color':'white'});
     $('footer .cta').css({'background-color':'blue'});
 }
