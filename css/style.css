@@ -61,7 +61,7 @@ a { text-decoration: none; color: inherit; }
 
 /* HERO IMAGE + HEADER */
 header {
-    background-image: url(../img/hero@2x.png);
+    background-image: url(img/hero@2x.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -410,7 +410,7 @@ footer {
     margin-top: 100px;
     height: 370px;
     padding-top: 80px;
-    background-image: url(../img/footer-img@2x.png);
+    background-image: url(img/footer-img@2x.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; }
