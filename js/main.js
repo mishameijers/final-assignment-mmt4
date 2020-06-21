@@ -152,11 +152,11 @@ $('.play-button02').click(function(event){
    event.preventDefault();
    if($(this).hasClass('pause')){
         $(this).removeClass('pause');
-        $('.play').attr("src", "../img/play.png");
+        $('.play').attr("src", "img/play.png");
        player2.pause();
    } else {
        ($(this).addClass('pause'))
-       $('.play').attr("src", "../img/pause.png");
+       $('.play').attr("src", "img/pause.png");
        player2.play();
    }
 });
@@ -182,11 +182,11 @@ $('.play-button04').click(function(event){
    event.preventDefault();
    if($(this).hasClass('pause')){
         $(this).removeClass('pause');
-        $('.play').attr("src", "../img/play.png");
+        $('.play').attr("src", "img/play.png");
        player4.pause();
    } else {
        ($(this).addClass('pause'))
-       $('.play').attr("src", "../img/pause.png");
+       $('.play').attr("src", "img/pause.png");
        player4.play();
    }
 });
